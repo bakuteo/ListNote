@@ -74,6 +74,11 @@
   position: relative;
   padding: 0.5rem;
 }
+
+.todoTask {
+  list-style: decimal;
+  text-align: left;
+}
 .todoTask li {
   position: relative;
   padding: 0.5rem;
