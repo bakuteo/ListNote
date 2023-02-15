@@ -6,7 +6,7 @@ const listTask = document.querySelector(".todoTask");
 let updateIdTask = null;
 
 async function addAPI({ text, id }) {
-  await fetch(endpoint, {
+  await fetch(api, {
     method: "POST",
     body: JSON.stringify({
       text,
